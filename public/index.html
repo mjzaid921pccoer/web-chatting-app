@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ChatBot</title>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>-->
+        <script src="/socket.io/socket.io.js"></script>
+        <link href="/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="chatbot">
+            <h2>ChatBot-CC</h2>
+            <input id="username" type="text" placeholder="Enter your Username" required/>
+            <div id="feedback"></div>
+            
+            <div id="chat-window">
+                <div id="conversation"></div>                
+            </div>
+            
+            <input id="message" type="text" placeholder="Type a message" required/>
+            <button id="send">Send</button>
+        </div>
+
+
+    </body>
+    <script src="/frontend.js"></script>
+</html>
